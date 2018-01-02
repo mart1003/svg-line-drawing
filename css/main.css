@@ -7,3 +7,80 @@ h1 {
   z-index: 10;
   animation: fadein 1s ease-in;
 }
+
+#narwhal-eye {
+  opacity: 1;
+  animation: fadein 2s ease-in;
+}
+
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+svg {
+  z-index: 1;
+}
+
+#rainbow-violet {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 2570px;
+  stroke-dashoffset: 2570px;
+}
+
+#rainbow-indigo {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 2420px;
+  stroke-dashoffset: 2420px;
+}
+
+#rainbow-blue {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 2270px;
+  stroke-dashoffset: 2270px;
+}
+
+#rainbow-green {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 2120px;
+  stroke-dashoffset: 2120px;
+}
+
+#rainbow-yellow {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1970px;
+  stroke-dashoffset: 1970px;
+}
+
+#rainbow-orange {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1820px;
+  stroke-dashoffset: 1820px;
+}
+
+#rainbow-red {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1670px;
+  stroke-dashoffset: 1670px;
+}
+
+#narwhal-body {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 2650px;
+  stroke-dashoffset: 2650px;
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
